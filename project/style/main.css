@@ -1,0 +1,234 @@
+/* table-layout:fixed */
+@font-face {
+	font-family: 'Haettenschweiler';
+	src: url('fonts/HATTEN.TTF'); 
+	src: 
+		local('Lovely Font'),
+		local('Lovely-Font'),
+		url('fonts/HATTEN.TTF')
+		format('truetype');
+}
+
+.szep{
+	font-family: 'Haettenschweiler', sans-serif;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+
+.Rendeles{
+	display: flex;
+    align-items: top;
+}
+
+body{
+	background-color:#fefbd8;
+}
+
+.haromheti{
+	position:fixed;
+	top: 100px;
+	left:5px;
+	border: 1px solid grey;
+	width:440px;
+	padding: 10px;
+	z-index:10;
+	background-color: #fff;
+	font-size: 20px;
+}
+
+.anchor{
+	padding-top: 40px; 
+	margin-top: -40px;
+}
+
+.mai{
+	position:fixed;
+	top: 100px;
+	right: 5px;
+	border: 1px solid grey;
+	width:440px;
+	padding: 10px;
+	z-index:10;
+	background-color: #fff;
+	font-size: 20px;
+}
+
+
+p{
+	margin: 10px;
+	text-align: justify;
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
+.rendlead{
+	padding-bottom: 10px;
+	position: relative;
+	top: 90px;
+	margin: 1%;
+	padding: 10px;
+	width: 500px;
+
+}
+
+.rendlead form{
+	text-align: center;
+	align-items:center;
+	width: 98%;
+
+}
+.rendlead table{
+	table-layout:fixed;
+	width: 98%;
+	text-align: center;
+	
+}
+
+.hely{
+	position: relative;
+	left: 0px;
+}
+.hely2{
+	position: relative;
+	top: 100%;
+	bottom: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 12;
+}
+
+.adminkep{
+	margin:10px;
+	max-width: 200px;
+}
+
+.con{
+	padding-bottom: 10px;
+	position: relative;
+	top: 90px;
+}
+
+.etlapcr{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border: 1px solid grey;
+	width: 1000px;
+	padding: 10px;
+	
+}
+
+.etlapcr form{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+select{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+
+.hozzav-cont{
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 10px;
+	border: 1px solid grey;
+	width: 48%;
+	padding:10px;
+}
+
+.etlapcr input, select{
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 10px;
+}
+
+
+.hozzav-cont input{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.koz{
+	margin-left: 1%;
+	margin-right: 1%;
+	display: inline-block;
+	width: 17%;
+}
+
+
+
+#elso{
+	width: 23%;
+}
+
+.megys{
+	width: 100px;
+}
+#center{
+	text-align: center;
+}
+
+#szeles{
+	width: 250px;
+	
+}
+
+.modositok{
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+#right{
+	position: absolute;
+	right: 1%;
+	top: -10px;
+}
+
+#felt{
+	color: grey;
+	font-size: 14px;
+}
+
+.hozzvalo{
+	display: block;
+}
+
+.mess{
+	color: grey;
+}
+
+.left-padd{
+	padding-left: 30px;
+}
+
+@media only screen and (max-width: 1900px) {
+	.haromheti{
+		position:static;
+	}
+	.mai{
+		position:static;
+
+	}
+}
+

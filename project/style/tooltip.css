@@ -1,0 +1,33 @@
+.infogomb {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Tooltip text */
+.felugro {
+	visibility: hidden;
+  width: 270px;
+  background-color: white;
+	border: 1px solid black;
+  text-align: justify;
+  padding: 5px 0;
+  border-radius: 6px;
+  padding: 10px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.infogomb:hover + .felugro{
+	visibility: visible;
+}
+
+.felugrokep{
+	width: 250px;
+	margin-left: auto;
+	margin-left: auto;
+	
+}

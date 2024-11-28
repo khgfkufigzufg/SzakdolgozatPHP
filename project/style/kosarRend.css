@@ -1,0 +1,146 @@
+.datum,.datumBelso, .Fej{
+	display: inline-block;
+	width: 20%;
+}
+.container{
+	max-width:100%;
+}
+
+.kosar{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	text-align: center;
+}
+tr{
+	padding:10px;
+}
+
+.plusmin{
+	padding:10px;
+}
+
+.Fej1{
+	display: inline-block;
+	width: 33.34%;
+}
+
+.Fej2{
+	display: inline-block;
+	width: 66.66%;
+}
+
+.Fej3{
+	display: inline-block;
+	width: 60%;
+}
+
+.Fej,.Fej1, .Fej2{
+	background-color:#602020;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	color: white;
+	padding: 10px;
+	font-weight:bold;
+	min-height: 100%;
+}
+.Rendeles, .datum, .datumBelso, .etelek{
+	border: 2px solid white;
+	background-color: #fbec51;
+}
+
+.gomb{
+	background-color:#602020;
+	border: 1px solid white;
+	color: white;
+	border-radius: 3px;
+	padding: 5px;
+	font-weight:bold;
+	margin: 10px;
+}
+
+.harom{
+	display: flex;
+	width: 100%;
+	
+}
+
+.datum{
+	display: flex;
+    align-items: top;
+    width: 20%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.datumBelso{
+	display: inline-block;
+	width: 33.34%;
+	padding: 10px;
+	
+}
+ .etelek{
+	display: inline-block;
+	width: 66.66%;
+	padding: 10px;
+}
+.datumok{
+	display: inline-block;
+	width: 60%;
+}
+
+
+
+.egyRendeles{
+	margin: 10px;
+	margin-bottom: 20px;
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1500px) {
+	.egyRendeles, .con{
+		margin: 0px;
+		margin-bottom: 20px;
+		width: 100%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		padding:0px;
+	}
+	
+	.Rendeles{
+		display:block;
+	}
+	.datum{
+		display: inline-block;
+		width: 50%;
+		height:66px;
+		
+	}
+	.harom:nth-child(1){
+		margin-top:-6px;
+	}
+	
+	.datum:nth-child(odd){
+		position: relative;
+		top: -6px;
+	}
+	
+	.datumok, .Fej3{
+		display:block;
+		width: 100%;
+	}
+	.Fej{
+		display: inline-block;
+		width: 50%;
+	}
+	.gomb{
+		margin: 0px;
+	}
+}
+
+
