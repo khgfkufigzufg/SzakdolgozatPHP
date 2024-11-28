@@ -3,6 +3,7 @@
 	<h3>A következő 3 heti szükségletek</h3><hr>
 	<?php 
 	//print_r($haromheti);
+	if(isset($haromheti)){
 	foreach ($haromheti as $hozzav => $adat){
 	    $hnev = $kiHOZZ->getHozzavalo($hozzav, $Db);
 	    echo $hnev.': ';
@@ -10,6 +11,7 @@
 	        echo $db.' '.$megys.'<br>';
 	    }
 	}
+}
 	
 	
 	?>

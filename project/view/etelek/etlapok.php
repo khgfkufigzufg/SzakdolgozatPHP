@@ -4,6 +4,7 @@
 echo '<div class="row"><div class="tabla" id="tabla1"><div class="col-lg-6 col-md-12"><table>';
 echo '<tr><th colspan="3">'.date('W', strtotime($date)).'. hét</th></tr>';
 $sorszamolo = 0;
+if (is_array($etlapok)) {
 foreach($etlapok as $key => $adat){//Az etlap_rendelés felületen összeállított $etlapok tömb felbontása
     
     
@@ -104,6 +105,7 @@ foreach($etlapok as $key => $adat){//Az etlap_rendelés felületen összeállít
         }
         
     }
+}
 }
 
 ?>

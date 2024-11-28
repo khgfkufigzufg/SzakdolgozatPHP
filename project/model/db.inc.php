@@ -27,7 +27,7 @@ class Db {
     
     public function execSQL($sql) {
         if(!$result = $this->conn->query($sql)) {
-            echo("Error description: " . mysqli_error($this->conn)." in $sql");
+            echo("Error description: " . $this->conn->error." in $sql");
         }
         return $result;
     }
